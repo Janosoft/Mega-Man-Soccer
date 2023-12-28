@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3hp26l0bl0je"]
+
+[ext_resource type="Texture2D" uid="uid://cnc6qslcv0b8j" path="res://Assets/Fields/Enker Field.png" id="1_5rn2t"]
+
+[node name="Stadium_1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_5rn2t")

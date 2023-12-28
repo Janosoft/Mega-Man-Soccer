@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://che361rjy41mn"]
+
+[ext_resource type="PackedScene" uid="uid://d3hp26l0bl0je" path="res://Scenes/Stadiums/Stadium_1.tscn" id="1_gbq1b"]
+[ext_resource type="PackedScene" uid="uid://d1cwekkc5wrxk" path="res://Scenes/Ball.tscn" id="2_70uib"]
+[ext_resource type="PackedScene" uid="uid://duspcemp7au4k" path="res://Scenes/Characters/MegaMan.tscn" id="3_1ight"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Stadium_1" parent="." instance=ExtResource("1_gbq1b")]
+
+[node name="Ball" parent="." instance=ExtResource("2_70uib")]
+
+[node name="MegaMan" parent="." instance=ExtResource("3_1ight")]
+position = Vector2(-38, 0)
